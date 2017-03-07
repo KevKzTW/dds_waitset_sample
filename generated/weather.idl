@@ -1,0 +1,10 @@
+module Weather
+{
+  struct Sensor
+  {
+    string type;
+    string city;
+    float value;
+  };
+  #pragma keylist Sensor type
+};
